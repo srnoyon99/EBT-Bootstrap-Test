@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+   <!-- CDN -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+   <!-- CSS LINK -->
+   <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+
+   <!-- NAVBAR -->
+
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+         <a class="navbar-brand" href="index.html">Navbar</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" href="about.html">About</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link active" aria-current="page" href="service.html">Service</a>
+               </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+               </li>
+            </ul>
+            <form class="d-flex" role="search">
+               <button class="btn btn-outline-success" type="submit">Hire Me</button>
+            </form>
+         </div>
+      </div>
+   </nav>
+
+   <!-- NAVBAR -->
+
+   <!-- Direct Contact Information Secction -->
+    <h1 class="Carrier container"> Direct Contact Information Secction </h1>
+
+<div class="container Contact">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <div class="mb-3">
+                <h5 class="card-title">Contact List <span class="text-muted fw-normal ms-2">(834)</span></h5>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
+                <div>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a
+                                aria-current="page"
+                                href="#"
+                                class="router-link-active router-link-exact-active nav-link active"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title=""
+                                data-bs-original-title="List"
+                                aria-label="List"
+                            >
+                                <i class="bx bx-list-ul"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Grid" aria-label="Grid"><i class="bx bx-grid-alt"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" data-bs-toggle="modal" data-bs-target=".add-new" class="btn btn-primary"><i class="bx bx-plus me-1"></i> Add New</a>
+                </div>
+                <div class="dropdown">
+                    <a class="btn btn-link text-muted py-1 font-size-16 shadow-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-horizontal-rounded"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="">
+                <div class="table-responsive">
+                    <table class="table project-list-table table-nowrap align-middle table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="ps-4" style="width: 50px;">
+                                    <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck" /><label class="form-check-label" for="contacusercheck"></label></div>
+                                </th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Position</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Projects</th>
+                                <th scope="col" style="width: 200px;">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="ps-4">
+                                    <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck1" /><label class="form-check-label" for="contacusercheck1"></label></div>
+                                </th>
+                                <td><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="avatar-sm rounded-circle me-2" /><a href="#" class="text-body">Simon Ryles</a></td>
+                                <td><span class="badge badge-soft-success mb-0">Full Stack Developer</span></td>
+                                <td>SimonRyles@minible.com</td>
+                                <td>125</td>
+                                <td>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" class="px-2 text-primary"><i class="bx bx-pencil font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" class="px-2 text-danger"><i class="bx bx-trash-alt font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item dropdown">
+                                            <a class="text-muted dropdown-toggle font-size-18 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="bx bx-dots-vertical-rounded"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="ps-4">
+                                    <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck2" /><label class="form-check-label" for="contacusercheck2"></label></div>
+                                </th>
+                                <td><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="avatar-sm rounded-circle me-2" /><a href="#" class="text-body">Marion Walker</a></td>
+                                <td><span class="badge badge-soft-info mb-0">Frontend Developer</span></td>
+                                <td>MarionWalker@minible.com</td>
+                                <td>132</td>
+                                <td>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" class="px-2 text-primary"><i class="bx bx-pencil font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" class="px-2 text-danger"><i class="bx bx-trash-alt font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item dropdown">
+                                            <a class="text-muted dropdown-toggle font-size-18 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="bx bx-dots-vertical-rounded"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="ps-4">
+                                    <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck3" /><label class="form-check-label" for="contacusercheck3"></label></div>
+                                </th>
+                                <td>
+                                    <div class="avatar-sm d-inline-block me-2">
+                                        <div class="avatar-title bg-soft-primary rounded-circle text-primary"><i class="mdi mdi-account-circle m-0"></i></div>
+                                    </div>
+                                    <a href="#" class="text-body">Frederick White</a>
+                                </td>
+                                <td><span class="badge badge-soft-danger mb-0">UI/UX Designer</span></td>
+                                <td>FrederickWhite@minible.com</td>
+                                <td>112</td>
+                                <td>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" class="px-2 text-primary"><i class="bx bx-pencil font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" class="px-2 text-danger"><i class="bx bx-trash-alt font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item dropdown">
+                                            <a class="text-muted dropdown-toggle font-size-18 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="bx bx-dots-vertical-rounded"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="ps-4">
+                                    <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck4" /><label class="form-check-label" for="contacusercheck4"></label></div>
+                                </th>
+                                <td><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="avatar-sm rounded-circle me-2" /><a href="#" class="text-body">Shanon Marvin</a></td>
+                                <td><span class="badge badge-soft-primary mb-0">Backend Developer</span></td>
+                                <td>ShanonMarvin@minible.com</td>
+                                <td>121</td>
+                                <td>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" class="px-2 text-primary"><i class="bx bx-pencil font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" class="px-2 text-danger"><i class="bx bx-trash-alt font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item dropdown">
+                                            <a class="text-muted dropdown-toggle font-size-18 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="bx bx-dots-vertical-rounded"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="ps-4">
+                                    <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck5" /><label class="form-check-label" for="contacusercheck5"></label></div>
+                                </th>
+                                <td>
+                                    <div class="avatar-sm d-inline-block me-2">
+                                        <div class="avatar-title bg-soft-primary rounded-circle text-primary"><i class="mdi mdi-account-circle m-0"></i></div>
+                                    </div>
+                                    <a href="#" class="text-body">Mark Jones</a>
+                                </td>
+                                <td><span class="badge badge-soft-info mb-0">Frontend Developer</span></td>
+                                <td>MarkJones@minible.com</td>
+                                <td>145</td>
+                                <td>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" class="px-2 text-primary"><i class="bx bx-pencil font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" class="px-2 text-danger"><i class="bx bx-trash-alt font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item dropdown">
+                                            <a class="text-muted dropdown-toggle font-size-18 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="bx bx-dots-vertical-rounded"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Remove</a></div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="ps-4">
+                                    <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck6" /><label class="form-check-label" for="contacusercheck6"></label></div>
+                                </th>
+                                <td><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="avatar-sm rounded-circle me-2" /><a href="#" class="text-body">Janice Morgan</a></td>
+                                <td><span class="badge badge-soft-primary mb-0">Backend Developer</span></td>
+                                <td>JaniceMorgan@minible.com</td>
+                                <td>136</td>
+                                <td>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" class="px-2 text-primary"><i class="bx bx-pencil font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" class="px-2 text-danger"><i class="bx bx-trash-alt font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item dropdown">
+                                            <a class="text-muted dropdown-toggle font-size-18 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="bx bx-dots-vertical-rounded"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="ps-4">
+                                    <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck7" /><label class="form-check-label" for="contacusercheck7"></label></div>
+                                </th>
+                                <td><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="avatar-sm rounded-circle me-2" /><a href="#" class="text-body">Patrick Petty</a></td>
+                                <td><span class="badge badge-soft-danger mb-0">UI/UX Designer</span></td>
+                                <td>PatrickPetty@minible.com</td>
+                                <td>125</td>
+                                <td>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" class="px-2 text-primary"><i class="bx bx-pencil font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" class="px-2 text-danger"><i class="bx bx-trash-alt font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item dropdown">
+                                            <a class="text-muted dropdown-toggle font-size-18 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="bx bx-dots-vertical-rounded"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="ps-4">
+                                    <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck8" /><label class="form-check-label" for="contacusercheck8"></label></div>
+                                </th>
+                                <td><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="avatar-sm rounded-circle me-2" /><a href="#" class="text-body">Marilyn Horton</a></td>
+                                <td><span class="badge badge-soft-primary mb-0">Backend Developer</span></td>
+                                <td>MarilynHorton@minible.com</td>
+                                <td>154</td>
+                                <td>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" class="px-2 text-primary"><i class="bx bx-pencil font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" class="px-2 text-danger"><i class="bx bx-trash-alt font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item dropdown">
+                                            <a class="text-muted dropdown-toggle font-size-18 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="bx bx-dots-vertical-rounded"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="ps-4">
+                                    <div class="form-check font-size-16"><input type="checkbox" class="form-check-input" id="contacusercheck9" /><label class="form-check-label" for="contacusercheck9"></label></div>
+                                </th>
+                                <td><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="avatar-sm rounded-circle me-2" /><a href="#" class="text-body">Neal Womack</a></td>
+                                <td><span class="badge badge-soft-success mb-0">Full Stack Developer</span></td>
+                                <td>NealWomack@minible.com</td>
+                                <td>231</td>
+                                <td>
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit" class="px-2 text-primary"><i class="bx bx-pencil font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript:void(0);" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" class="px-2 text-danger"><i class="bx bx-trash-alt font-size-18"></i></a>
+                                        </li>
+                                        <li class="list-inline-item dropdown">
+                                            <a class="text-muted dropdown-toggle font-size-18 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"><i class="bx bx-dots-vertical-rounded"></i></a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row g-0 align-items-center pb-4">
+        <div class="col-sm-6">
+            <div><p class="mb-sm-0">Showing 1 to 10 of 57 entries</p></div>
+        </div>
+        <div class="col-sm-6">
+            <div class="float-sm-end">
+                <ul class="pagination mb-sm-0">
+                    <li class="page-item disabled">
+                        <a href="#" class="page-link"><i class="mdi mdi-chevron-left"></i></a>
+                    </li>
+                    <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link">5</a></li>
+                    <li class="page-item">
+                        <a href="#" class="page-link"><i class="mdi mdi-chevron-right"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+   <!-- Direct Contact Information Secction -->
+
+   <!-- Contact From Section -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<div id="contact" class="contact-area section-padding">
+	<div class="container">
+      <h1 class="Carrier"> Contact From Section </h1>										
+		<div class="section-title text-center">
+			<h1>Get in Touch</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim. Aenean vitae metus in augue pretium ultrices.</p>
+		</div>					
+		<div class="row">
+			<div class="col-lg-7">	
+				<div class="contact ContactSection">
+					<form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+						<div class="row ">
+							<div class="form-group col-md-6">
+								<input type="text" name="name" class="form-control" placeholder="Name" required="required">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="email" name="email" class="form-control" placeholder="Email" required="required">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="text" name="Phone Number" class="form-control" placeholder="Phone Number" required="required">
+							</div>
+							<div class="form-group col-md-6">
+								<input type="text" name="Address" class="form-control" placeholder="text" required="required">
+							</div>
+							<div class="form-group col-md-12">
+								<textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+							</div>
+							<div class="col-md-12 text-center">
+								<button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div><!--- END COL --> 
+			<div class="col-lg-5">
+				<div class="single_address">
+					<i class="fa fa-map-marker"></i>
+					<h4>Our Address</h4>
+					<p>3481 Melrose Place, Beverly Hills</p>
+				</div>
+				<div class="single_address">
+					<i class="fa fa-envelope"></i>
+					<h4>Send your message</h4>
+					<p>Info@example.com</p>
+				</div>
+				<div class="single_address">
+					<i class="fa fa-phone"></i>
+					<h4>Call us on</h4>
+					<p>(+1) 517 397 7100</p>
+				</div>
+				<div class="single_address">
+					<i class="fa fa-clock-o"></i>
+					<h4>Work Time</h4>
+					<p>Mon - Fri: 08.00 - 16.00. <br>Sat: 10.00 - 14.00</p>
+				</div>					
+			</div><!--- END COL --> 
+		</div><!--- END ROW -->
+	</div><!--- END CONTAINER -->	
+</div>
+   <!-- Contact From Section -->
+
+   <!-- Google MAP API -->
+
+   <h1 class="Carrier container "> Google MAP API Section </h1>
+
+    <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14599.583361606892!2d90.38425380000001!3d23.822302649999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1777963099844!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   <!-- Google MAP API -->
+
+   <!-- Contact From Section -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+<div class="container">
+
+      <h1 class="Carrier  "> Contact From Section </h1>
+
+    <div class="contact__wrapper shadow-lg mt-n9">
+        <div class="row no-gutters">
+            <div class="col-lg-5 contact-info__wrapper gradient-brand-color p-5 order-lg-2">
+                <h3 class="color--white mb-5">Get in Touch</h3>
+    
+                <ul class="contact-info__list list-style--none position-relative z-index-101">
+                    <li class="mb-4 pl-4">
+                        <span class="position-absolute"><i class="fas fa-envelope"></i></span> support@bootdey.com
+                    </li>
+                    <li class="mb-4 pl-4">
+                        <span class="position-absolute"><i class="fas fa-phone"></i></span> (021)-241454-545
+                    </li>
+                    <li class="mb-4 pl-4">
+                        <span class="position-absolute"><i class="fas fa-map-marker-alt"></i></span> bootdey Technologies Inc.
+                        <br> 2694 Queen City Rainbow Drive
+                        <br> Florida 99161
+    
+                        <div class="mt-3">
+                            <a href="https://www.google.com/maps" target="_blank" class="text-link link--right-icon text-white">Get directions <i class="link__icon fa fa-directions"></i></a>
+                        </div>
+                    </li>
+                </ul>
+    
+                <figure class="figure position-absolute m-0 opacity-06 z-index-100" style="bottom:0; right: 10px">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="444px" height="626px">
+                        <defs>
+                            <linearGradient id="PSgrad_1" x1="0%" x2="81.915%" y1="57.358%" y2="0%">
+                                <stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="1"></stop>
+                                <stop offset="100%" stop-color="rgb(0,54,207)" stop-opacity="0"></stop>
+                            </linearGradient>
+    
+                        </defs>
+                        <path fill-rule="evenodd" opacity="0.302" fill="rgb(72, 155, 248)" d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z"></path>
+                        <path fill="url(#PSgrad_1)" d="M816.210,-41.714 L968.999,111.158 L-197.210,1277.998 L-349.998,1125.127 L816.210,-41.714 Z"></path>
+                    </svg>
+                </figure>
+            </div>
+    
+            <div class="col-lg-7 contact-form__wrapper p-5 order-lg-1">
+                <form action="#" class="contact-form form-validate" novalidate="novalidate">
+                    <div class="row">
+                        <div class="col-sm-6 mb-3">
+                            <div class="form-group">
+                                <label class="required-field" for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Wendy">
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-6 mb-3">
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Appleseed">
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-6 mb-3">
+                            <div class="form-group">
+                                <label class="required-field" for="email">Email</label>
+                                <input type="text" class="form-control" id="email" name="email" placeholder="wendy.apple@seed.com">
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-6 mb-3">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="(021)-454-545">
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-12 mb-3">
+                            <div class="form-group">
+                                <label class="required-field" for="message">How can we help?</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Hi there, I would like to....."></textarea>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-12 mb-3">
+                            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                        </div>
+    
+                    </div>
+                </form>
+            </div>
+            <!-- End Contact Form Wrapper -->
+    
+        </div>
+    </div>
+</div>
+   <!-- Contact From Section -->
+
+   <!-- Footer Pages -->
+   <footer class="footer-area footer-one">
+      <div class="footer-widget">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 col-lg-4 col-sm-12">
+                  <div class="f-about">
+                     <div class="footer-logo">
+                        <a href="javascript:void(0)">
+                           <img src="https://cdn.ayroui.com/1.0/images/footer/logo.svg" alt="Logo" />
+                        </a>
+                     </div>
+                     <p class="text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.
+                     </p>
+                  </div>
+                  <div class="footer-app-store">
+                     <h5 class="download-title">Download Our App Now!</h5>
+                     <ul>
+                        <li>
+                           <a href="javascript:void(0)">
+                              <img src="https://cdn.ayroui.com/1.0/images/footer/app-store.svg" alt="app" />
+                           </a>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0)">
+                              <img src="https://cdn.ayroui.com/1.0/images/footer/play-store.svg" alt="play" />
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-2 col-lg-2 col-sm-4">
+                  <div class="footer-link">
+                     <h6 class="footer-title">Company</h6>
+                     <ul>
+                        <li><a href="javascript:void(0)">About</a></li>
+                        <li><a href="javascript:void(0)">Contact</a></li>
+                        <li><a href="javascript:void(0)">Marketing</a></li>
+                        <li><a href="javascript:void(0)">Awards</a></li>
+                     </ul>
+                  </div>
+                  <!-- footer link -->
+               </div>
+               <div class="col-xl-2 col-lg-3 col-sm-4">
+                  <div class="footer-link">
+                     <h6 class="footer-title">Services</h6>
+                     <ul>
+                        <li><a href="javascript:void(0)">Products</a></li>
+                        <li><a href="javascript:void(0)">Business</a></li>
+                        <li><a href="javascript:void(0)">Developer</a></li>
+                        <li><a href="javascript:void(0)">Insights</a></li>
+                     </ul>
+                  </div>
+                  <!-- footer link -->
+               </div>
+               <div class="col-xl-2 col-lg-3 col-sm-4">
+                  <!-- Start Footer Contact -->
+                  <div class="footer-contact">
+                     <h6 class="footer-title">Help & Suuport</h6>
+                     <ul>
+                        <li>
+                           <i class="lni lni-map-marker"></i> Madison Street, NewYork,
+                           USA
+                        </li>
+                        <li><i class="lni lni-phone-set"></i> +88 556 88545</li>
+                        <li><i class="lni lni-envelope"></i> support@ayroui.com</li>
+                     </ul>
+                  </div>
+                  <!-- End Footer Contact -->
+               </div>
+            </div>
+            <!-- row -->
+         </div>
+         <!-- container -->
+      </div>
+      <!-- footer widget -->
+      <div class="footer-copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="
+                  copyright
+                  text-center
+                  d-md-flex
+                  justify-content-between
+                  align-items-center
+                  ">
+                     <p class="text">Copyright © 2024 AyroUI. All Rights Reserved</p>
+                     <ul class="social">
+                        <li>
+                           <a href="javascript:void(0)">
+                              <i class="lni lni-facebook-filled"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0)">
+                              <i class="lni lni-twitter-original"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0)">
+                              <i class="lni lni-instagram-filled"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- copyright -->
+               </div>
+            </div>
+            <!-- row -->
+         </div>
+         <!-- container -->
+      </div>
+      <!-- footer copyright -->
+   </footer>
+
+   <!-- Footer Pages -->
+
+   <!-- JAVA LINK -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>
