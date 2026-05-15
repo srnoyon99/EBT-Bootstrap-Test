@@ -58,335 +58,553 @@
    <section id="portfolio">
 
       <!-- Personal Information Section -->
-      <section class="section about-section gray-bg" id="about">
-         <div class="container">
-            <h1 class="Carrier"> Personal Information Section  </h1>
-            <div class="row align-items-center flex-row-reverse">
-               <div class="col-lg-6">
-                  <div class="about-text go-to">
-                     <h3 class="dark-color">About Me</h3>
-                     <h6 class="theme-color lead">A Lead UX &amp; UI designer based in Canada</h6>
-                     <p>I <mark>design and develop</mark> services for customers of all sizes, specializing in creating
-                        stylish, modern websites, web services and online stores. My passion is to design digital user
-                        experiences through the bold interface and meaningful interactions.</p>
-                     <div class="row about-list">
-                        <div class="col-md-6">
-                           <div class="media">
-                              <label>Birthday</label>
-                              <p>4th april 1998</p>
-                           </div>
-                           <div class="media">
-                              <label>Age</label>
-                              <p>22 Yr</p>
-                           </div>
-                           <div class="media">
-                              <label>Residence</label>
-                              <p>Canada</p>
-                           </div>
-                           <div class="media">
-                              <label>Address</label>
-                              <p>California, USA</p>
-                           </div>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="media">
-                              <label>E-mail</label>
-                              <p>info@domain.com</p>
-                           </div>
-                           <div class="media">
-                              <label>Phone</label>
-                              <p>820-885-3321</p>
-                           </div>
-                           <div class="media">
-                              <label>Skype</label>
-                              <p>skype.0404</p>
-                           </div>
-                           <div class="media">
-                              <label>Freelance</label>
-                              <p>Available</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6">
-                  <div class="about-avatar">
-                     <img src="https://bootdey.com/img/Content/avatar/avatar7.png" title="" alt="">
-                  </div>
-               </div>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+<!-- Personal Information start -->
+<section class="info-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left: Profile Image -->
+            <div class="col-lg-5 mb-5 mb-lg-0 text-center">
+                <div class="profile-frame d-inline-block shadow-sm">
+                    <img src="https://images.pexels.com/photos/8217533/pexels-photo-8217533.jpeg" alt="Profile" class="img-fluid">
+                </div>
             </div>
-            <div class="counter">
-               <div class="row">
-                  <div class="col-6 col-lg-3">
-                     <div class="count-data text-center">
-                        <h6 class="count h2" data-to="500" data-speed="500">500</h6>
-                        <p class="m-0px font-w-600">Happy Clients</p>
-                     </div>
-                  </div>
-                  <div class="col-6 col-lg-3">
-                     <div class="count-data text-center">
-                        <h6 class="count h2" data-to="150" data-speed="150">150</h6>
-                        <p class="m-0px font-w-600">Project Completed</p>
-                     </div>
-                  </div>
-                  <div class="col-6 col-lg-3">
-                     <div class="count-data text-center">
-                        <h6 class="count h2" data-to="850" data-speed="850">850</h6>
-                        <p class="m-0px font-w-600">Photo Capture</p>
-                     </div>
-                  </div>
-                  <div class="col-6 col-lg-3">
-                     <div class="count-data text-center">
-                        <h6 class="count h2" data-to="190" data-speed="190">190</h6>
-                        <p class="m-0px font-w-600">Telephonic Talk</p>
-                     </div>
-                  </div>
-               </div>
+
+            <!-- Right: Details List -->
+            <div class="col-lg-7 ps-lg-5">
+                <h6 class="text-primary fw-bold text-uppercase mb-2">Identification</h6>
+                <h2 class="display-6 fw-bold mb-4">Personal Details</h2>
+                
+                <div class="row">
+                    <!-- Column 1 -->
+                    <div class="col-md-6">
+                        <div class="info-list-item">
+                            <div class="info-icon">
+                                <i class="bi bi-person-fill"></i>
+                            </div>
+                            <div>
+                                <p class="info-label">Name</p>
+                                <p class="info-value">Your Full Name</p>
+                            </div>
+                        </div>
+
+                        <div class="info-list-item">
+                            <div class="info-icon">
+                                <i class="bi bi-envelope-at-fill"></i>
+                            </div>
+                            <div>
+                                <p class="info-label">Email</p>
+                                <p class="info-value">hello@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-list-item">
+                            <div class="info-icon">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div>
+                                <p class="info-label">Location</p>
+                                <p class="info-value">Your City, Country</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="col-md-6">
+                        <div class="info-list-item">
+                            <div class="info-icon">
+                                <i class="bi bi-calendar-check-fill"></i>
+                            </div>
+                            <div>
+                                <p class="info-label">Availability</p>
+                                <p class="info-value">Full-time / Freelance</p>
+                            </div>
+                        </div>
+
+                        <div class="info-list-item">
+                            <div class="info-icon">
+                                <i class="bi bi-translate"></i>
+                            </div>
+                            <div>
+                                <p class="info-label">Languages</p>
+                                <p class="info-value">English, Bengali</p>
+                            </div>
+                        </div>
+
+                        <div class="info-list-item">
+                            <div class="info-icon">
+                                <i class="bi bi-globe"></i>
+                            </div>
+                            <div>
+                                <p class="info-label">Website</p>
+                                <p class="info-value">www.photohub.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Links -->
+                <div class="mt-4 d-flex gap-3">
+                    <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi bi-github me-1"></i> Github</a>
+                    <a href="#" class="btn btn-outline-primary btn-sm"><i class="bi bi-linkedin me-1"></i> LinkedIn</a>
+                </div>
             </div>
-         </div>
-      </section>
+        </div>
+    </div>
+</section>
+<!-- Personal Information end -->
       <!-- Personal Information Section -->
 
       <!-- Education Information Section -->
 
       <h1 class="Carrier"> Education Information Section  </h1>
 
-<section class="card-area pb-5">
-   <div class="container">
-      <div class="row justify-content-center">
-         <div class="col-lg-4 col-md-7 col-sm-9">
-            <div class="single-card card-style-one">
-               <div class="card-image">
-                  <img src="https://cdn.ayroui.com/1.0/images/card/card-1.jpg" alt="Image" />
-               </div>
-               <div class="card-content">
-                  <h4 class="card-title">
-                     <a href="javascript:void(0)">School</a>
-                  </h4>
-                  <p class="text">
-                     GPA 5
-                  </p>
-               </div>
-            </div>
-            <!-- single-card -->
-         </div>
-         <!-- col -->
-         <div class="col-lg-4 col-md-7 col-sm-9">
-            <div class="single-card card-style-one">
-               <div class="card-image">
-                  <img src="https://cdn.ayroui.com/1.0/images/card/card-2.jpg" alt="Image" />
-               </div>
-               <div class="card-content">
-                  <h4 class="card-title">
-                     <a href="javascript:void(0)">Collage</a>
-                  </h4>
-                  <p class="text">
-                     GPA 5
-                  </p>
-               </div>
-            </div>
-            <!-- single-card -->
-         </div>
-         <!-- col -->
-         <div class="col-lg-4 col-md-7 col-sm-9">
-            <div class="single-card card-style-one">
-               <div class="card-image">
-                  <img src="https://cdn.ayroui.com/1.0/images/card/card-3.jpg" alt="Image" />
-               </div>
-               <div class="card-content">
-                  <h4 class="card-title">
-                     <a href="javascript:void(0)">University</a>
-                  </h4>
-                  <p class="text">
-                     GPA 3.50
-                  </p>
-               </div>
-            </div>
-            <!-- single-card -->
-         </div>
-         <!-- col -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Education Section</title>
+
+  <!-- Bootstrap 5 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+
+
+</head>
+<body>
+
+  <section class="education-section">
+    <div class="container">
+
+      <!-- Section Title -->
+      <div class="section-title">
+        <h2>Education Information</h2>
+        <p>My academic journey and educational background.</p>
       </div>
-      <!-- row -->
-   </div>
-   <!-- container -->
-</section>
+
+      <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="edu-card">
+            <div class="edu-icon">
+              <i class="bi bi-mortarboard-fill"></i>
+            </div>
+
+            <h4>Bachelor Degree</h4>
+            <h6>Computer Science & Engineering</h6>
+
+            <p>
+              Completed my graduation in Computer Science with focus on
+              web development, programming, and software engineering.
+            </p>
+
+            <div class="edu-info">
+              <span class="edu-year">2021 - 2025</span>
+              <span class="edu-grade">CGPA: 3.85</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="edu-card">
+            <div class="edu-icon">
+              <i class="bi bi-book-half"></i>
+            </div>
+
+            <h4>Higher Secondary</h4>
+            <h6>Science Group</h6>
+
+            <p>
+              Completed Higher Secondary education with strong academic
+              performance in Physics, Chemistry, and Mathematics.
+            </p>
+
+            <div class="edu-info">
+              <span class="edu-year">2018 - 2020</span>
+              <span class="edu-grade">GPA: 5.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="edu-card">
+            <div class="edu-icon">
+              <i class="bi bi-pencil-square"></i>
+            </div>
+
+            <h4>Secondary School</h4>
+            <h6>Science Group</h6>
+
+            <p>
+              Successfully completed secondary education with excellent
+              academic achievements and extracurricular participation.
+            </p>
+
+            <div class="edu-info">
+              <span class="edu-year">2016 - 2018</span>
+              <span class="edu-grade">GPA: 5.00</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
 
       <!-- Education Information Section -->
 
       <!-- Special Skill Section -->
 
-      <div class="container">
-    <div class="main-body">
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Special Skills Section</title>
 
-      <h1 class="Carrier"> Special Skill Section </h1>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
-              <div class="row gutters-sm">
-                <div class="col-sm-6 mb-3">
-                  <div class="card h-100">
-                    <div class="card-body">
-                      <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>
-                      <small>Web Design</small>
-                      <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <small>Website Markup</small>
-                      <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <small>One Page</small>
-                      <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <small>Mobile Template</small>
-                      <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <small>Backend API</small>
-                      <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-6 mb-3">
-                  <div class="card h-100">
-                    <div class="card-body">
-                      <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>
-                      <small>Web Design</small>
-                      <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <small>Website Markup</small>
-                      <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <small>One Page</small>
-                      <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <small>Mobile Template</small>
-                      <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <small>Backend API</small>
-                      <div class="progress mb-3" style="height: 5px">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
 
+</head>
+<body>
 
+  <section class="skills-section">
+    <div class="container">
 
+      <!-- Title -->
+      <div class="section-title">
+        <h2>Special Skills</h2>
+        <p>
+          My technical expertise and professional skills with modern technologies
+          and creative development experience.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Skill Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              <i class="bi bi-code-slash"></i>
             </div>
-          </div>
 
+            <h4>Frontend Development</h4>
+
+            <p>
+              Building responsive and modern user interfaces using HTML, CSS,
+              Bootstrap, Tailwind CSS, JavaScript and React.
+            </p>
+
+            <div class="progress">
+              <div class="progress-bar" style="width:95%"></div>
+            </div>
+
+            <span class="skill-percent">95%</span>
+
+          </div>
         </div>
+
+        <!-- Skill Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              <i class="bi bi-server"></i>
+            </div>
+
+            <h4>Backend Development</h4>
+
+            <p>
+              Creating secure backend systems and REST APIs using Node.js,
+              Express.js and MongoDB database.
+            </p>
+
+            <div class="progress">
+              <div class="progress-bar" style="width:88%"></div>
+            </div>
+
+            <span class="skill-percent">88%</span>
+
+          </div>
+        </div>
+
+        <!-- Skill Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              <i class="bi bi-phone"></i>
+            </div>
+
+            <h4>Responsive Design</h4>
+
+            <p>
+              Designing fully responsive websites that work perfectly on desktop,
+              tablet and mobile devices.
+            </p>
+
+            <div class="progress">
+              <div class="progress-bar" style="width:92%"></div>
+            </div>
+
+            <span class="skill-percent">92%</span>
+
+          </div>
+        </div>
+
+      </div>
     </div>
+  </section>
+
+</body>
+</html>
 
       <!-- Special Skill Section -->
 
       <!-- training certification section -->
-       <section id="" class="py-5 bg-light">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="Carrier">Training Certification Section</h2>
-      <p class="text-muted">Professional courses and achievements</p>
-    </div>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="row g-4">
-      
+  <title>Training & Certification</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  >
+
+</head>
+<body>
+
+  <!-- Training Section -->
+  <section class="training-section">
+    <div class="container">
+
+      <!-- Title -->
+      <div class="section-title">
+        <h2>Training & Certifications</h2>
+        <p>Professional training courses and certifications.</p>
+      </div>
+
       <!-- Item 1 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <h5 class="card-title">Web Development Bootcamp</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Udemy</h6>
-            <p class="card-text">
-              Learned HTML, CSS, JavaScript, and backend basics.
-            </p>
-            <span class="badge bg-primary">2024</span>
-          </div>
+      <div class="training-item">
+        <div class="training-icon">
+          <i class="bi bi-code-slash"></i>
+        </div>
+
+        <h4>Frontend Development</h4>
+        <h6>Creative IT Institute</h6>
+
+        <p>
+          Completed training on HTML, CSS, Bootstrap, JavaScript and responsive
+          website design with practical projects.
+        </p>
+
+        <div class="training-bottom">
+          <span>Duration: 6 Months | 2025</span>
+
+          <a href="#" class="certificate-btn">
+            View Certificate
+          </a>
         </div>
       </div>
 
       <!-- Item 2 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <h5 class="card-title">Python for Data Science</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Coursera</h6>
-            <p class="card-text">
-              Covered data analysis, visualization, and machine learning basics.
-            </p>
-            <span class="badge bg-success">2023</span>
-          </div>
+      <div class="training-item">
+        <div class="training-icon">
+          <i class="bi bi-laptop"></i>
+        </div>
+
+        <h4>Full Stack Web Development</h4>
+        <h6>Programming Hero</h6>
+
+        <p>
+          Learned React, Node.js, Express.js, MongoDB, Firebase authentication
+          and REST API development.
+        </p>
+
+        <div class="training-bottom">
+          <span>Duration: 8 Months | 2024</span>
+
+          <a href="#" class="certificate-btn">
+            View Certificate
+          </a>
         </div>
       </div>
 
       <!-- Item 3 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <h5 class="card-title">Cyber Security Essentials</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Cisco</h6>
-            <p class="card-text">
-              Fundamentals of network security and threat management.
-            </p>
-            <span class="badge bg-warning text-dark">2022</span>
-          </div>
+      <div class="training-item">
+        <div class="training-icon">
+          <i class="bi bi-palette"></i>
+        </div>
+
+        <h4>UI/UX Design Course</h4>
+        <h6>Coursera</h6>
+
+        <p>
+          Completed UI/UX design course including wireframing, prototyping,
+          design systems and user experience principles.
+        </p>
+
+        <div class="training-bottom">
+          <span>Duration: 3 Months | 2023</span>
+
+          <a href="#" class="certificate-btn">
+            View Certificate
+          </a>
         </div>
       </div>
 
     </div>
-  </div>
-</section>
+  </section>
+
+</body>
+</html>
       <!-- training certification section -->
 
       <!-- Working Exprience Section -->
-<section class="container my-5">
-  <h2 class="Carrier">Work Experience Section</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Work Experience Section</title>
 
-  <div class="row">
-    <div class="col-md-10 offset-md-1">
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
 
-      <!-- Job 1 -->
-      <div class="card mb-4 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Frontend Developer</h5>
-          <h6 class="card-subtitle mb-2 text-muted">ABC Company | Jan 2023 - Present</h6>
-          <p class="card-text">
-            Developed responsive websites using HTML, CSS, and JavaScript. Improved UI performance and user experience.
-          </p>
-        </div>
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+
+</head>
+<body>
+
+  <!-- Work Experience Section -->
+  <section class="experience-section">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Work Experience</h2>
+        <p>
+          My professional journey and experience in web development,
+          frontend engineering, and modern UI design.
+        </p>
       </div>
 
-      <!-- Job 2 -->
-      <div class="card mb-4 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Web Designer</h5>
-          <h6 class="card-subtitle mb-2 text-muted">XYZ Studio | Jun 2021 - Dec 2022</h6>
-          <p class="card-text">
-            Designed modern website layouts and collaborated with developers to implement designs.
-          </p>
-        </div>
-      </div>
+      <div class="row g-4">
 
-      <!-- Job 3 -->
-      <div class="card mb-4 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Intern Developer</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Tech Solutions | Jan 2021 - May 2021</h6>
-          <p class="card-text">
-            Assisted in building web applications and fixing bugs in existing systems.
-          </p>
-        </div>
-      </div>
+        <!-- Experience Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="experience-card">
+            <div class="experience-icon">
+              <i class="bi bi-code-slash"></i>
+            </div>
 
+            <h3 class="job-title">Frontend Developer</h3>
+            <h5 class="company">Creative IT Institute</h5>
+
+            <span class="duration">
+              Jan 2024 - Present
+            </span>
+
+            <p>
+              Developed responsive websites using HTML, CSS,
+              Bootstrap, Tailwind CSS, React.js and Next.js.
+              Created modern UI/UX with clean code and
+              smooth user experience.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experience Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="experience-card">
+            <div class="experience-icon">
+              <i class="bi bi-laptop"></i>
+            </div>
+
+            <h3 class="job-title">Web Designer</h3>
+            <h5 class="company">Freelance Marketplace</h5>
+
+            <span class="duration">
+              Aug 2023 - Dec 2023
+            </span>
+
+            <p>
+              Designed modern portfolio websites, business
+              landing pages and dashboard interfaces with
+              mobile responsive layouts and interactive
+              animations.
+            </p>
+          </div>
+        </div>
+
+        <!-- Experience Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="experience-card">
+            <div class="experience-icon">
+              <i class="bi bi-phone"></i>
+            </div>
+
+            <h3 class="job-title">UI Developer</h3>
+            <h5 class="company">Tech Solutions</h5>
+
+            <span class="duration">
+              Mar 2022 - Jul 2023
+            </span>
+
+            <p>
+              Built reusable UI components and optimized
+              website performance for faster loading speed.
+              Collaborated with teams to create scalable
+              and modern web applications.
+            </p>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+
+</body>
+</html>
 
       <!-- Working Exprience Section -->
 

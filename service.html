@@ -58,102 +58,501 @@
    <section id="service">
 
      <!-- All Service Grid Section -->
-<section class="py-5 bg-light">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f8f9fb;
+      color: #1a1a2e;
+    }
+
+    .services-section {
+      padding: 80px 0;
+    }
+
+    .section-badge {
+      display: inline-block;
+      background: #eef2ff;
+      color: #4f62d0;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 100px;
+      margin-bottom: 16px;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 12px;
+    }
+
+    .section-desc {
+      font-size: 1rem;
+      color: #6b7280;
+      max-width: 460px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    /* Card */
+    .service-card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 28px 24px;
+      height: 100%;
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .service-card:hover {
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+      transform: translateY(-4px);
+    }
+
+    .icon-box {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      margin-bottom: 16px;
+    }
+
+    .service-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #111827;
+      margin-bottom: 8px;
+    }
+
+    .service-text {
+      font-size: 0.88rem;
+      color: #6b7280;
+      line-height: 1.65;
+      margin-bottom: 16px;
+    }
+
+    .service-link {
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .service-link:hover { text-decoration: underline; }
+
+    /* Colors */
+    .c-blue  { background: #eff6ff; color: #3b82f6; }
+    .c-purple{ background: #f5f3ff; color: #7c3aed; }
+    .c-green { background: #f0fdf4; color: #16a34a; }
+    .c-orange{ background: #fff7ed; color: #ea580c; }
+    .c-pink  { background: #fdf2f8; color: #db2777; }
+    .c-teal  { background: #f0fdfa; color: #0d9488; }
+
+    .lk-blue  { color: #3b82f6; }
+    .lk-purple{ color: #7c3aed; }
+    .lk-green { color: #16a34a; }
+    .lk-orange{ color: #ea580c; }
+    .lk-pink  { color: #db2777; }
+    .lk-teal  { color: #0d9488; }
+  </style>
+</head>
+<body>
+
+<section class="services-section">
   <div class="container">
-    
-    <!-- Section Title -->
+
+    <!-- Header -->
     <div class="text-center mb-5">
-
-     <h1 class="Carrier">All Service Grid Section</h1>
-
-      <h2 class="fw-bold">Our Services</h2>
-      <p class="text-muted">We provide high quality solutions for your business</p>
+      <span class="section-badge">What We Do</span>
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-desc">Everything you need to build, grow, and scale your business — all in one place.</p>
     </div>
 
-    <!-- Services Grid -->
+    <!-- Grid -->
     <div class="row g-4">
 
-      <!-- Service 1 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="card service-card text-center p-4">
-          <div class="service-icon">
-            <i class="bi bi-code-slash"></i>
-          </div>
-          <h5>Web Development</h5>
-          <p class="text-muted">Modern and responsive websites built with latest technologies.</p>
-          <a href="#" class="btn btn-primary btn-sm">Read More</a>
+      <div class="col-sm-6 col-lg-4">
+        <div class="service-card">
+          <div class="icon-box c-blue">🖥️</div>
+          <div class="service-title">Web Development</div>
+          <p class="service-text">Fast, responsive websites and web apps built with modern technologies and best practices.</p>
+          <a href="#" class="service-link lk-blue">Learn more →</a>
         </div>
       </div>
 
-      <!-- Service 2 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="card service-card text-center p-4">
-          <div class="service-icon">
-            <i class="bi bi-phone"></i>
-          </div>
-          <h5>App Development</h5>
-          <p class="text-muted">Cross-platform mobile apps for Android and iOS devices.</p>
-          <a href="#" class="btn btn-primary btn-sm">Read More</a>
+      <div class="col-sm-6 col-lg-4">
+        <div class="service-card">
+          <div class="icon-box c-purple">🎨</div>
+          <div class="service-title">UI/UX Design</div>
+          <p class="service-text">Clean, intuitive interfaces designed around your users to boost engagement and satisfaction.</p>
+          <a href="#" class="service-link lk-purple">Learn more →</a>
         </div>
       </div>
 
-      <!-- Service 3 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="card service-card text-center p-4">
-          <div class="service-icon">
-            <i class="bi bi-bar-chart"></i>
-          </div>
-          <h5>Digital Marketing</h5>
-          <p class="text-muted">Grow your business with targeted marketing strategies.</p>
-          <a href="#" class="btn btn-primary btn-sm">Read More</a>
+      <div class="col-sm-6 col-lg-4">
+        <div class="service-card">
+          <div class="icon-box c-green">📈</div>
+          <div class="service-title">SEO & Marketing</div>
+          <p class="service-text">Data-driven strategies to rank higher, attract more visitors, and convert them into customers.</p>
+          <a href="#" class="service-link lk-green">Learn more →</a>
         </div>
       </div>
 
-      <!-- Service 4 -->
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="card service-card text-center p-4">
-          <div class="service-icon">
-            <i class="bi bi-shield-check"></i>
-          </div>
-          <h5>Cyber Security</h5>
-          <p class="text-muted">Protect your systems with advanced security solutions.</p>
-          <a href="#" class="btn btn-primary btn-sm">Read More</a>
+      <div class="col-sm-6 col-lg-4">
+        <div class="service-card">
+          <div class="icon-box c-orange">📱</div>
+          <div class="service-title">Mobile Apps</div>
+          <p class="service-text">Native and cross-platform apps for iOS and Android that users love to use every day.</p>
+          <a href="#" class="service-link lk-orange">Learn more →</a>
         </div>
       </div>
 
-    </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="service-card">
+          <div class="icon-box c-pink">🛡️</div>
+          <div class="service-title">Cybersecurity</div>
+          <p class="service-text">Protect your business with audits, penetration testing, and ongoing security monitoring.</p>
+          <a href="#" class="service-link lk-pink">Learn more →</a>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="service-card">
+          <div class="icon-box c-teal">☁️</div>
+          <div class="service-title">Cloud Solutions</div>
+          <p class="service-text">Migrate and manage your infrastructure on AWS, GCP, or Azure with zero downtime.</p>
+          <a href="#" class="service-link lk-teal">Learn more →</a>
+        </div>
+      </div>
+
+    </div><!-- /row -->
+
   </div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
      <!-- All Service Grid Section -->
 
      <!--  Client Section -->
-<section class="py-5 bg-light">
-  <div class="container text-center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Clients</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
 
-     <h1 class="Carrier">Client Section</h1>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
-    <h2 class="mb-4">Our Clients</h2>
-    <div class="row g-4 align-items-center">
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #f7f6f2;
+      color: #1a1a1a;
+    }
 
-      <div class="col-6 col-md-3">
-        <img src="./images/client1.jpg" class="img-fluid client-logo" alt="Client 1">
+    /* ── Section ── */
+    .clients-section {
+      padding: 80px 0;
+      background: #f7f6f2;
+    }
+
+    /* ── Header ── */
+    .section-label {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #7a7a72;
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 600;
+      color: #1a1a1a;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .section-sub {
+      font-size: 15px;
+      color: #6b6b63;
+      max-width: 460px;
+      line-height: 1.7;
+    }
+
+    /* ── Client Cards ── */
+    .client-card {
+      background: #ffffff;
+      border-radius: 14px;
+      border: 1px solid #e8e7e0;
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+      height: 100%;
+    }
+
+    .client-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.07);
+    }
+
+    /* Avatar */
+    .client-avatar {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 15px;
+      flex-shrink: 0;
+    }
+
+    .av-blue   { background: #ddeeff; color: #1a5fa8; }
+    .av-teal   { background: #d4f0e6; color: #0b6b51; }
+    .av-coral  { background: #fae0d8; color: #9c3820; }
+    .av-amber  { background: #fdefd4; color: #7a4b0c; }
+    .av-purple { background: #e8e6fd; color: #44389e; }
+    .av-pink   { background: #f8dde9; color: #7e2249; }
+
+    .client-name {
+      font-weight: 500;
+      font-size: 15px;
+      color: #1a1a1a;
+      margin-bottom: 2px;
+    }
+
+    .client-role {
+      font-size: 12px;
+      color: #8a8a80;
+    }
+
+    .client-company {
+      font-size: 13px;
+      color: #5a5a52;
+      font-weight: 500;
+      padding: 4px 10px;
+      background: #f2f1ec;
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    .client-quote {
+      font-size: 13.5px;
+      color: #555550;
+      line-height: 1.65;
+      border-left: 3px solid #d8d6cf;
+      padding-left: 12px;
+      flex: 1;
+    }
+
+    /* ── Stat Strip ── */
+    .stats-strip {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 36px 32px;
+      margin-top: 64px;
+    }
+
+    .stat-item {
+      text-align: center;
+      padding: 8px 0;
+    }
+
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      font-weight: 600;
+      color: #000000;
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 13px;
+      color: #8a8a82;
+      margin-top: 6px;
+    }
+
+    .stat-divider {
+      width: 1px;
+      background: #2e2e2e;
+      align-self: stretch;
+    }
+
+    @media (max-width: 768px) {
+      .stat-divider { display: none; }
+      .stats-strip .d-flex { flex-wrap: wrap; gap: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<section class="clients-section">
+  <div class="container">
+
+    <!-- Header -->
+    <div class="row mb-5">
+      <div class="col-lg-6">
+        <p class="section-label">Our Clients</p>
+        <h2 class="section-title">Trusted by teams<br>around the world</h2>
+      </div>
+      <div class="col-lg-5 offset-lg-1 d-flex align-items-center">
+        <p class="section-sub">We work with businesses of all sizes — from early-stage startups to established enterprises — delivering results they can count on.</p>
+      </div>
+    </div>
+
+    <!-- Client Cards -->
+    <div class="row g-3">
+
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="client-card">
+          <div class="d-flex align-items-center gap-3">
+            <div class="client-avatar av-blue">SR</div>
+            <div>
+              <p class="client-name">Sarah Reynolds</p>
+              <p class="client-role">Head of Product</p>
+            </div>
+          </div>
+          <span class="client-company">NovaTech Inc.</span>
+          <p class="client-quote">Working with this team has been a game-changer. Delivery is fast, quality is consistent, and communication is always clear.</p>
+        </div>
       </div>
 
-      <div class="col-6 col-md-3">
-        <img src="./images/client2.jpg" class="img-fluid client-logo" alt="Client 2">
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="client-card">
+          <div class="d-flex align-items-center gap-3">
+            <div class="client-avatar av-teal">JM</div>
+            <div>
+              <p class="client-name">James Moreau</p>
+              <p class="client-role">CEO & Co-founder</p>
+            </div>
+          </div>
+          <span class="client-company">Greenloop</span>
+          <p class="client-quote">They understood our vision from day one. Our platform launched ahead of schedule and feedback from users has been outstanding.</p>
+        </div>
       </div>
 
-      <div class="col-6 col-md-3">
-        <img src="./images/client3.jpg" class="img-fluid client-logo" alt="Client 3">
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="client-card">
+          <div class="d-flex align-items-center gap-3">
+            <div class="client-avatar av-coral">AN</div>
+            <div>
+              <p class="client-name">Aisha Nkosi</p>
+              <p class="client-role">Marketing Director</p>
+            </div>
+          </div>
+          <span class="client-company">BrightEdge</span>
+          <p class="client-quote">Professional, responsive, and genuinely talented. I wouldn't hesitate to recommend them to any growing business.</p>
+        </div>
       </div>
 
-      <div class="col-6 col-md-3">
-        <img src="./images/client4.jpg" class="img-fluid client-logo" alt="Client 4">
+      <!-- Card 4 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="client-card">
+          <div class="d-flex align-items-center gap-3">
+            <div class="client-avatar av-amber">LK</div>
+            <div>
+              <p class="client-name">Lucas Kim</p>
+              <p class="client-role">Engineering Lead</p>
+            </div>
+          </div>
+          <span class="client-company">Stackwave</span>
+          <p class="client-quote">The attention to detail and technical depth they bring to every project is rare. Truly a partner, not just a vendor.</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="client-card">
+          <div class="d-flex align-items-center gap-3">
+            <div class="client-avatar av-purple">OM</div>
+            <div>
+              <p class="client-name">Olivia Marsh</p>
+              <p class="client-role">Operations Manager</p>
+            </div>
+          </div>
+          <span class="client-company">Clearpath</span>
+          <p class="client-quote">Our workflow is smoother than ever. They took a complex problem and turned it into an elegant, easy-to-use solution.</p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="client-card">
+          <div class="d-flex align-items-center gap-3">
+            <div class="client-avatar av-pink">DT</div>
+            <div>
+              <p class="client-name">Daniel Torres</p>
+              <p class="client-role">Founder</p>
+            </div>
+          </div>
+          <span class="client-company">Artify Studio</span>
+          <p class="client-quote">Exceptional work from start to finish. They delivered exactly what we needed and went above and beyond at every step.</p>
+        </div>
       </div>
 
     </div>
+
+    <!-- Stats Strip -->
+    <div class="stats-strip">
+      <div class="d-flex justify-content-around align-items-center flex-wrap gap-4">
+        <div class="stat-item">
+          <div class="stat-number">200+</div>
+          <div class="stat-label">Happy clients</div>
+        </div>
+        <div class="stat-divider d-none d-md-block"></div>
+        <div class="stat-item">
+          <div class="stat-number">98%</div>
+          <div class="stat-label">Satisfaction rate</div>
+        </div>
+        <div class="stat-divider d-none d-md-block"></div>
+        <div class="stat-item">
+          <div class="stat-number">40+</div>
+          <div class="stat-label">Countries served</div>
+        </div>
+        <div class="stat-divider d-none d-md-block"></div>
+        <div class="stat-item">
+          <div class="stat-number">8yr</div>
+          <div class="stat-label">In business</div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
      <!--  Client Section -->
 
      <!-- FAQ Section --> 
