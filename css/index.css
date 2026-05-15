@@ -149,7 +149,7 @@ section{
       display: flex;
       align-items: center;
       padding: 80px 0;
-      background: linear-gradient(135deg, #0f172a, #111827, #1e293b);
+      background: white;
     }
 
     .bio-card {
@@ -270,23 +270,12 @@ section{
 
 /* Existing Client Section */
 
-*{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    body{
-      background:#0f172a;
-      color:white;
-    }
-
     .client-section{
       padding:100px 0;
       position:relative;
       overflow:hidden;
-    }
+      
+}
 
     .client-section::before{
       content:'';
@@ -337,7 +326,7 @@ section{
 
     .client-card{
       background:rgba(255,255,255,0.06);
-      border:1px solid rgba(255,255,255,0.08);
+      border:1px solid #38bdf8; ;
       backdrop-filter:blur(12px);
       border-radius:24px;
       padding:35px 25px;
